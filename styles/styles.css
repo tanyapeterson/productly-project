@@ -1,5 +1,5 @@
  nav,
- ul {
+ .nav-list {
      display: flex;
      margin-top: 20px;
      align-items: center;
@@ -388,6 +388,7 @@
 
 
  .easier {
+     margin-top: 113px;
      margin-left: 100px;
      font-family: 'Poppins', sans-serif;
      font-style: normal;
@@ -414,6 +415,7 @@
 
 
  .p-info-part-5-big {
+     margin-bottom: 33px;
      max-width: 486px;
      width: 100%;
      margin-left: 100px;
@@ -427,8 +429,17 @@
  }
 
 
+ .p-info-part-5 {
+     max-width: 365px;
+     width: 100%;
+     position: relative;
+     left: 150px;
+     bottom: 50px;
+ }
+
 
  .check-symbol {
+     display: inline-block;
      margin-left: 100px;
      font-family: 'Poppins', sans-serif;
      font-style: normal;
@@ -449,6 +460,7 @@
      /* or 162% */
      color: #544837;
  }
+
 
 
  .p-info-part-6 {
@@ -474,4 +486,85 @@
      line-height: 54px;
      /* identical to box height */
      color: #2F281E;
+ }
+
+
+ .container-3 {
+     display: flex;
+     justify-content: flex-start;
+ }
+
+
+ .man-yellow-shirt-img {
+     margin-right: 145px;
+     margin-top: 150px;
+     margin-left: 105px;
+ }
+
+
+ .footer {
+     margin-top: 147px;
+ }
+
+
+
+ .main-logo-footer {
+     margin-left: 159px;
+ }
+
+
+ .container-4 {
+     display: flex;
+     justify-content: center;
+ }
+
+
+ .container-5 {
+     position: relative;
+     right: 100px;
+
+
+ }
+
+
+ .footer-list-1 {
+     margin-bottom: 83px;
+ }
+
+
+ .footer-list-2 {
+     margin-left: 100px;
+     margin-bottom: 83px;
+ }
+
+
+ .sign-up-now-btn {
+     position: absolute;
+     right: 250px;
+     bottom: 50px;
+     width: 131px;
+     height: 39px;
+     background: #FF9900;
+     border-radius: 4px;
+     font-family: 'Poppins', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     /* identical to box height */
+     text-align: center;
+     color: #FFFFFF;
+ }
+
+
+ .phone-number {
+     position: absolute;
+     bottom: 120px;
+     right: 60px;
+     width: 325px;
+     height: 48px;
+     box-sizing: border-box;
+     background: #FFFFFF;
+     border: 1px solid #BCD0E5;
+     border-radius: 4px;
  }
